@@ -1,7 +1,7 @@
 About r-ggfittext
 =================
 
-Home: https://github.com/wilkox/ggfittext
+Home: https://wilkox.org/ggfittext
 
 Package license: GPL-2
 
