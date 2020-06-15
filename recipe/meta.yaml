@@ -1,4 +1,4 @@
-{% set version = '0.8.1' %}
+{% set version = "0.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfittext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfittext/ggfittext_{{ version }}.tar.gz
-  sha256: db886b6c485e18f8d3720622bdefc27f72f6ef54136f12dab55d62a19643b3a8
+  sha256: 2357f0212081095476cf703d5b2c401cfa484bff59516ae3afbe680da2a7dfc9
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -42,11 +42,10 @@ test:
 about:
   home: https://wilkox.org/ggfittext
   license: GPL-2
-  summary: Provides 'ggplot2' geoms to fit text into a box by growing, shrinking or wrapping
-    the text.
+  summary: Provides 'ggplot2' geoms to fit text into a box by growing, shrinking or wrapping the text.
   license_family: GPL2
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
