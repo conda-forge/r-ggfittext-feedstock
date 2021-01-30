@@ -5,11 +5,9 @@ Home: https://wilkox.org/ggfittext
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfittext-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides 'ggplot2' geoms to fit text into a box by growing, shrinking or wrapping the text.
-
-
 
 Current build status
 ====================
