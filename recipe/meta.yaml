@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfittext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfittext/ggfittext_{{ version }}.tar.gz
-  sha256: 2357f0212081095476cf703d5b2c401cfa484bff59516ae3afbe680da2a7dfc9
+  sha256: ae1460061eec92d0d71103acfaf6a565e36fe995093b7a36cd5e90ce95919379
 
 build:
   merge_build_host: true  # [win]
