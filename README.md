@@ -3,7 +3,7 @@ About r-ggfittext
 
 Home: https://wilkox.org/ggfittext
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggfittext-feedstock/blob/master/LICENSE.txt)
 
