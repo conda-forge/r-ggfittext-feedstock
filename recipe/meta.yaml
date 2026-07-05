@@ -1,4 +1,4 @@
-{% set version = "0.10.3" %}
+{% set version = "0.10.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggfittext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggfittext/ggfittext_{{ version }}.tar.gz
-  sha256: 45cf2ea5faef8d6366b6d672617d8bdc73d6e7a14ebc9dce2b277f9c9d2cd5df
+  sha256: 0e9b6a019172dc5f5900950805d7071e8237d2ebbc6f97a4c232727d2d861d3a
 
 build:
   number: 0
